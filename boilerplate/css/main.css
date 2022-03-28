@@ -378,4 +378,31 @@ nav .navli2 {
 }
 nav Img {
   width: 50px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+}
+section form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 100px;
+  gap: 10px;
+}
+section input, section textarea {
+  width: 400px;
+}
+section textarea {
+  height: 200px;
+}
+section input[type=submit] {
+  width: 410px;
+}
+
+img {
+  width: 600px;
 }/*# sourceMappingURL=main.css.map */
