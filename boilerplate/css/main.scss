@@ -1,3 +1,11 @@
 @import 'sass/base/normalize' ;
+
+@import 'sass/abstracts/variables' ;
+
+@import 'sass/layout/navigation.scss' ;
+
+@import 'sass/layout/header.scss' ;
+
 @import 'sass/layout/_navigation.scss' ;
+
 @import 'sass/layout/_forms.scss';
