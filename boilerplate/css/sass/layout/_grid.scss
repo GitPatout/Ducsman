@@ -1,0 +1,16 @@
+.grille
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    margin: 30px;
+    img
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .casegrille
+    {
+        object-fit: cover;
+    }
+}
