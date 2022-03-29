@@ -1,0 +1,16 @@
+main{
+    display: flex;
+    position: absolute;
+    left: 360px;
+    right: 0px;
+    top: 310px;
+    article{
+        display: flex;
+        flex-direction: column;
+    }
+    h2{
+        text-align: center;
+    }img{
+        width: 400px;
+    }
+}
