@@ -11,6 +11,15 @@
     }
     .casegrille
     {
-        object-fit: cover;
+        position: relative;
+    }
+    .prix
+    {
+        position: absolute;
+        left: 40%;
+    }
+    .motsclef
+    {
+        position: absolute;
     }
 }
