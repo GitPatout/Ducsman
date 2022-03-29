@@ -16,6 +16,7 @@ nav
     ul
     {
         padding: 0;
+        margin-top: 80px;
     }
     .navli
     {
@@ -28,9 +29,12 @@ nav
         text-decoration: none;
         color: black;
     }
-    .iframenav
+    .mapgoogle
     {
         display: flex;
+        justify-content: center;
+        width: 250px;
+        height: 250px;
         margin-top: 80px;
     }
     .reseaux
@@ -42,8 +46,8 @@ nav
     {
         list-style: none;
         margin-top: 30px;
-        margin-left: 30px;
-        margin-right: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     Img
     {
@@ -55,4 +59,41 @@ nav
     position: absolute;
     top: 0;
     left: 350px;
+}
+
+@media screen and (max-width: 1500px)
+{
+    nav
+    {
+        width: 300px;
+    }
+    .mapgoogle
+    {
+        height: 200px;
+        width: 200px;
+    }
+.container
+{
+    position: absolute;
+    top: 0;
+    left: 300px;
+}
+}
+@media screen and (max-width: 1000px)
+{
+    nav
+    {
+        width: 250px;
+    }
+    .mapgoogle
+    {
+        height: 150px;
+        width: 150px;
+    }
+.container
+{
+    position: absolute;
+    top: 0;
+    left: 250px;
+}
 }

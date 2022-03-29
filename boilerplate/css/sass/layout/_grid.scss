@@ -9,17 +9,12 @@
         width: 100%;
         height: 100%;
     }
-    .casegrille
-    {
-        position: relative;
-    }
-    .prix
-    {
-        position: absolute;
-        left: 40%;
-    }
-    .motsclef
-    {
-        position: absolute;
-    }
 }
+@media screen and (max-width: 1500px)
+{
+    .grille
+    {
+        grid-template-columns: 1fr 1fr;
+    }    
+}
+    

@@ -1,0 +1,23 @@
+footer
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    background-image: $color2-background-image;
+    height: 200px;
+    ul
+    {
+        margin: 0;
+    }
+    li
+    {
+        list-style: none;
+        margin-right: 80px;
+        padding: 10px 0px;
+    }
+    p
+    {
+        white-space: pre-line;
+    }
+}

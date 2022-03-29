@@ -354,6 +354,7 @@ nav .logo {
 }
 nav ul {
   padding: 0;
+  margin-top: 80px;
 }
 nav .navli {
   list-style: none;
@@ -364,8 +365,11 @@ nav a {
   text-decoration: none;
   color: black;
 }
-nav .iframenav {
+nav .mapgoogle {
   display: flex;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
   margin-top: 80px;
 }
 nav .reseaux {
@@ -375,8 +379,8 @@ nav .reseaux {
 nav .navli2 {
   list-style: none;
   margin-top: 30px;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 nav Img {
   width: 50px;
@@ -388,6 +392,38 @@ nav Img {
   left: 350px;
 }
 
+@media screen and (max-width: 1500px) {
+  nav {
+    width: 300px;
+  }
+
+  .mapgoogle {
+    height: 200px;
+    width: 200px;
+  }
+
+  .container {
+    position: absolute;
+    top: 0;
+    left: 300px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  nav {
+    width: 250px;
+  }
+
+  .mapgoogle {
+    height: 150px;
+    width: 150px;
+  }
+
+  .container {
+    position: absolute;
+    top: 0;
+    left: 250px;
+  }
+}
 header img {
   width: 100%;
   height: 300px;
@@ -405,17 +441,12 @@ header img {
   width: 100%;
   height: 100%;
 }
-.grille .casegrille {
-  position: relative;
-}
-.grille .prix {
-  position: absolute;
-  left: 40%;
-}
-.grille .motsclef {
-  position: absolute;
-}
 
+@media screen and (max-width: 1500px) {
+  .grille {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 section {
   display: flex;
   justify-content: center;
@@ -441,4 +472,46 @@ section input[type=submit] {
 
 img {
   width: 600px;
+}
+
+.casegrille {
+  position: relative;
+}
+.casegrille .prix {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  padding: 2px 10px;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  border: solid black 1px;
+  border-radius: 20px;
+}
+.casegrille .motsclef {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  padding: 2px 10px;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  border: solid black 1px;
+  border-radius: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  height: 200px;
+}
+footer ul {
+  margin: 0;
+}
+footer li {
+  list-style: none;
+  margin-right: 80px;
+  padding: 10px 0px;
+}
+footer p {
+  white-space: pre-line;
 }/*# sourceMappingURL=main.css.map */
