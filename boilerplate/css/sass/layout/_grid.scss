@@ -17,4 +17,11 @@
         grid-template-columns: 1fr 1fr;
     }    
 }
+@media screen and (max-width: 800px)
+{
+    .grille
+    {
+        grid-template-columns: 1fr;
+    }    
+}
     

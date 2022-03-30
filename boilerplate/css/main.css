@@ -353,6 +353,7 @@ nav .logo {
   width: 90%;
 }
 nav ul {
+  margin: 0;
   padding: 0;
   margin-top: 80px;
 }
@@ -374,7 +375,6 @@ nav .mapgoogle {
 }
 nav .reseaux {
   display: flex;
-  margin: 50px;
 }
 nav .navli2 {
   list-style: none;
@@ -418,10 +418,36 @@ nav Img {
     width: 150px;
   }
 
+  .navli2 {
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  Img {
+    width: 30px;
+  }
+
   .container {
     position: absolute;
     top: 0;
     left: 250px;
+  }
+}
+@media screen and (max-width: 800px) {
+  nav {
+    width: 150px;
+  }
+
+  .mapgoogle {
+    height: 50px;
+    width: 50px;
+  }
+
+  .container {
+    position: absolute;
+    top: 0;
+    left: 150px;
   }
 }
 header img {
@@ -445,6 +471,11 @@ header img {
 @media screen and (max-width: 1500px) {
   .grille {
     grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 800px) {
+  .grille {
+    grid-template-columns: 1fr;
   }
 }
 section {
@@ -514,4 +545,19 @@ footer li {
 }
 footer p {
   white-space: pre-line;
+}
+
+@media screen and (max-width: 1500px) {
+  p {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  p {
+    font-size: 14px;
+  }
+
+  li {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=main.css.map */
