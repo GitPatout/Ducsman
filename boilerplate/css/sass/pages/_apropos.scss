@@ -3,14 +3,15 @@ main{
     position: absolute;
     left: 360px;
     right: 0px;
-    top: 310px;
+    top: 300px;
     article{
         display: flex;
         flex-direction: column;
     }
     h2{
         text-align: center;
-    }img{
+    }
+    .imgap{
         width: 400px;
     }
 }
