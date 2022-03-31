@@ -499,7 +499,7 @@ header img {
   width: 410px;
 }
 
-img {
+.imgape {
   width: 600px;
 }
 
@@ -611,7 +611,7 @@ footer p {
   width: 410px;
 }
 
-img {
+.imgape {
   width: 600px;
 }
 
@@ -646,20 +646,20 @@ img {
   grid-row: 7;
 }
 
-main {
+.apropos {
   display: flex;
   position: absolute;
   left: 360px;
   right: 0px;
-  top: 310px;
+  top: 300px;
 }
-main article {
+.apropos article {
   display: flex;
   flex-direction: column;
 }
-main h2 {
+.apropos h2 {
   text-align: center;
 }
-main img {
+.apropos .imgap {
   width: 400px;
 }/*# sourceMappingURL=main.css.map */
