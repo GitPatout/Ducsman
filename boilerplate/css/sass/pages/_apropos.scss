@@ -1,17 +1,29 @@
 .apropos{
     display: flex;
-    position: absolute;
-    left: 360px;
-    right: 0px;
-    top: 300px;
-    article{
+    flex-direction: column;
+    margin-left: 350px;
+   .para{
         display: flex;
         flex-direction: column;
     }
     h2{
         text-align: center;
     }
-    .imgap{
-        width: 400px;
+}
+
+@media screen and (max-width: 1000px)
+{
+    .apropos{
+        position: absolute;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 800px)
+{
+    .apropos
+    {
+        position: absolute;
+        width: 150px;
     }
 }
