@@ -352,15 +352,18 @@ nav .logo {
   margin-top: 30px;
   width: 90%;
 }
-nav ul {
+nav .reseaux {
   margin: 0;
   padding: 0;
-  margin-top: 80px;
+}
+nav ul {
+  margin: 0%;
+  padding: 0%;
 }
 nav .navli {
   list-style: none;
   font-size: x-large;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 nav a {
   text-decoration: none;
@@ -369,11 +372,15 @@ nav a {
 nav .mapgoogle {
   display: flex;
   justify-content: center;
-  width: 250px;
-  height: 250px;
-  margin-top: 80px;
+  width: 90%;
+  height: 30%;
+  margin-top: 50px;
+}
+nav .iframenav {
+  width: 100%;
 }
 nav .reseaux {
+  margin-top: 50px;
   display: flex;
 }
 nav .navli2 {
@@ -382,7 +389,7 @@ nav .navli2 {
   margin-left: 20px;
   margin-right: 20px;
 }
-nav Img {
+nav img {
   width: 50px;
 }
 
@@ -396,13 +403,13 @@ nav Img {
   nav {
     width: 300px;
   }
-
-  .mapgoogle {
-    height: 200px;
-    width: 200px;
+  nav .mapgoogle {
+    width: 90%;
   }
 
   .container {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     top: 0;
     left: 300px;
@@ -413,19 +420,12 @@ nav Img {
     width: 250px;
   }
 
-  .mapgoogle {
-    height: 150px;
-    width: 150px;
-  }
-
   .navli2 {
     margin-top: 30px;
-    margin-left: 5px;
-    margin-right: 5px;
   }
 
-  Img {
-    width: 30px;
+  nav Img {
+    width: 40px;
   }
 
   .container {
