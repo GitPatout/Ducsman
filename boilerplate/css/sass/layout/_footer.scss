@@ -1,0 +1,43 @@
+footer
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    background-image: $color2-background-image;
+    height: 200px;
+    ul
+    {
+        margin: 0;
+    }
+    li
+    {
+        list-style: none;
+        margin-right: 80px;
+        padding: 10px 0px;
+        
+    }
+    p
+    {
+        white-space: pre-line;
+    }
+}
+
+@media screen and (max-width: 1500px)
+{
+    p
+    {
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 1000px)
+{
+    p
+    {
+        font-size: 14px;
+    }
+    li
+    {
+        font-size: 14px;
+    }
+}

@@ -2,11 +2,19 @@
 
 @import 'sass/abstracts/variables' ;
 
+@import 'sass/abstracts/mixins' ;
+
 @import 'sass/layout/navigation.scss' ;
 
 @import 'sass/layout/header.scss' ;
 
-@import 'sass/layout/_navigation.scss' ;
+@import 'sass/layout/grid.scss' ;
+
+@import 'sass/layout/forms.scss';
+
+@import 'sass/components/grid-element' ;
+
+@import 'sass/layout/footer' ;
 
 @import 'sass/layout/_forms.scss';
 

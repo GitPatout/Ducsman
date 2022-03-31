@@ -1,0 +1,20 @@
+@mixin prix
+{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    padding: 2px 10px;
+    background-image: $color1-background-image;
+    border: solid black 1px;
+    border-radius: 20px;
+}
+@mixin motsclef
+{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    padding: 2px 10px;
+    background-image: $color1-background-image;
+    border: solid black 1px;
+    border-radius: 20px;
+}

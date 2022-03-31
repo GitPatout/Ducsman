@@ -1,0 +1,13 @@
+.casegrille
+{
+    position: relative;
+
+    .prix
+    {
+        @include prix
+    }
+        .motsclef
+    {
+        @include motsclef
+    }
+}
