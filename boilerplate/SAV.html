@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/main.css">
-    <title>SAV</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/main.css">
+  <title>SAV</title>
 </head>
+
 <body>
 
   <nav>
@@ -42,36 +44,38 @@
 
   <header>
 
-    <img src="img/Nouveau-header.jpg" alt="" >
+    <img src="img/Nouveau-header.jpg" alt="">
 
-      <a href="#"><img class="panier" src="img/panier.png" alt=""></a>
+    <a href="#"><img class="panier" src="img/panier.png" alt=""></a>
+
   </header>
 
+  <section class="SAV">
+    
+    <form method="post" action="" class="form_sav">
 
-    <section class="SAV">
-    <form method="post" class="form_sav">
+      <h2>Un souci nous voici</h2>
 
-        <h2>Un souci nous voici</h2>
+      <input type="text" name="Prenom" placeholder="prénom">
+      <input type="text" name="Nom" placeholder="nom">
+      <input type="email" name="mail" placeholder="prénom.nom@gmail.com">
+      <input type="text" name="Adresse" placeholder="adresse">
+      <input type="text" name="Code_Postal" placeholder="votre code postal" pattern="[0-9]{5}">
+      <input type="text" name="ville" placeholder="votre ville">
+      <input type="text" name="pays" placeholder="votre pays">
+      <input type="tel" name="telephone" placeholder="votre numéro de téléphone"
+        pattern="[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}">
+      <select>
+        <option value="vêtement">pantalon</option>
+        <option value="vêtement">costard</option>
+        <option value="vêtement">veste</option>
+        <option value="vêtement">chaussure</option>
+        <option value="vêtement">cravate</option>
+      </select>
+      <textarea placeholder="problème rencontré"></textarea>
+      <input type="submit" name="envoyer" class="envoie">
+      <input type="submit" name="contact" value="contacter-nous" class="contacter">
 
-        <input type="text" name="Prenom" placeholder="prénom">
-        <input type="text" name="Nom" placeholder="nom">
-        <input type="email" name="mail" placeholder="prénom.nom@gmail.com">
-        <input type="text" name="Adresse" placeholder="adresse">
-        <input type="text" name="Code_Postal" placeholder="votre code postal" pattern="[0-9]{5}">
-        <input type="text" name="ville" placeholder="votre ville">
-        <input type="text" name="pays" placeholder="votre pays">
-        <input type="tel" name="telephone" placeholder="votre numéro de téléphone" pattern="[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}">
-        <select>
-          <option value="vêtement">pantalon</option>
-          <option value="vêtement">costard</option>
-          <option value="vêtement">veste</option>
-          <option value="vêtement">chaussure</option>
-          <option value="vêtement">cravate</option>
-        </select>
-        <textarea placeholder="problème rencontré"></textarea>
-        <input type="submit" name="envoyer" class="envoie">
-        <input type="submit" name="contact" value="contacter-nous" class="contacter">
-        
     </form>
   </section>
 
@@ -86,7 +90,8 @@
 
     </ul>
 
-    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel odio nobis perspiciatis! Laborum at eveniet
+    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel odio nobis perspiciatis! Laborum at
+      eveniet
       officiis asperiores placeat. Atque, error. Molestias, nihil excepturi! Itaque nobis eum tenetur ex veritatis
       doloremquezeadzadzadzadza?</p>
 
@@ -95,4 +100,5 @@
   <script type="text/javascript" src="burger.js"></script>
 
 </body>
+
 </html>
