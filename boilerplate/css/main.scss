@@ -1,21 +1,21 @@
-@import 'sass/base/normalize' ;
+@import 'sass/base/_normalize' ;
 
-@import 'sass/abstracts/variables' ;
+@import 'sass/abstracts/_variables' ;
 
-@import 'sass/abstracts/mixins' ;
+@import 'sass/abstracts/_mixins' ;
 
-@import 'sass/layout/navigation.scss' ;
+@import 'sass/layout/_navigation' ;
 
-@import 'sass/layout/header.scss' ;
+@import 'sass/layout/_header' ;
 
-@import 'sass/layout/grid.scss' ;
+@import 'sass/layout/_grid' ;
 
-@import 'sass/layout/forms.scss';
+@import 'sass/layout/_forms';
 
-@import 'sass/components/grid-element' ;
+@import 'sass/components/_grid-element' ;
 
-@import 'sass/layout/footer' ;
+@import 'sass/layout/_footer' ;
 
-@import 'sass/layout/_forms.scss';
+@import 'sass/layout/_forms';
 
-@import 'sass/pages/_apropos.scss';
+@import 'sass/pages/_apropos';
