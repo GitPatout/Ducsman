@@ -55,8 +55,8 @@ nav
     {
         list-style: none;
         margin-top: 30px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     img
     {
@@ -84,8 +84,6 @@ nav
 {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 0;
     left: 300px;
 }
 }
@@ -106,8 +104,6 @@ nav
     }
 .container
 {
-    position: absolute;
-    top: 0;
     left: 250px;
 }
 }
@@ -115,15 +111,28 @@ nav
 {
     nav
     {
+        width: 80px;
+    }
+    nav.open
+    {
+        width: 200px;
+    }
+    .logo
+    {
+        transform: scaleY(0);
+    }
+    .logo.open
+    {
         transform: scaleY(1);
-        width: 150px;
     }
     #burger {
         width:30px;
         height:2px;
         background:white;
         display:inline-block;
-        position:relative;
+        position:fixed;
+        left: 25px;
+        top: 120px;
       }
       #burger::before,
       #burger::after {
@@ -154,15 +163,40 @@ nav
         transform: rotate(-45deg);
         top:0;
       }
+    .navul
+    {
+        transform: scaleY(0);
+    }
+    .navul.open
+    {
+        transform: scaleY(1);
+    }
+    .navli a
+    {
+        font-size: 20px;
+    }
     .mapgoogle
     {
-        height: 50px;
-        width: 50px;
+        transform: scaleY(0);
+    }
+    .mapgoogle.open
+    {
+        transform: scaleY(1);
+    }
+    .reseaux
+    {
+        transform: scaleY(0);
+    }
+    .reseaux.open
+    {
+        transform: scaleY(1);
     }
 .container
 {
-    position: absolute;
-    top: 0;
-    left: 150px;
+    left: 80px;
+}
+.container.open
+{
+    left: 200px;
 }
 }
