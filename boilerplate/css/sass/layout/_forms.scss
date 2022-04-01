@@ -18,7 +18,7 @@
 }
 
 .bas{
-    p{
+    .text{
         margin-left: 15%;
     }
 }
@@ -28,7 +28,7 @@
     .contact{
         position: absolute;
         width: 250px;
-    }p{
+    }.text{
         margin-left: 50%;
     }
 }
@@ -38,7 +38,7 @@
     .contact{
         width: 150px;
     }
-    p{
+    .text{
         margin-left: 15%;
     }
 }
@@ -68,7 +68,7 @@
     .SAV{
         position: absolute;
         width: 250px;
-    }p{
+    }.text{
         margin-left: 20%;
     }
 }
@@ -78,7 +78,7 @@
     .SAV{
         width: 150px;
     }
-    p{
+    .text{
         margin-left: 15%;
     }
 }
