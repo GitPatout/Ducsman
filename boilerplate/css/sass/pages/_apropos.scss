@@ -1,29 +1,12 @@
 .apropos{
     display: flex;
+    width: 100%;
     flex-direction: column;
-    margin-left: 350px;
    .para{
         display: flex;
         flex-direction: column;
     }
     h2{
         text-align: center;
-    }
-}
-
-@media screen and (max-width: 1000px)
-{
-    .apropos{
-        position: absolute;
-        width: 250px;
-    }
-}
-
-@media screen and (max-width: 800px)
-{
-    .apropos
-    {
-        position: absolute;
-        width: 150px;
     }
 }
