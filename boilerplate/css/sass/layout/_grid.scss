@@ -4,6 +4,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
     margin: 30px;
+    article:hover
+    {
+        transform: translate(-5px, -5px);
+    }
     img
     {
         width: 100%;
