@@ -5,8 +5,18 @@
    .para{
         display: flex;
         flex-direction: column;
+        
     }
-    h2{
+    p{
+        font-family: 'Maitree', serif;
+    }
+    h1{
+        font-family: 'Italianno';
         text-align: center;
+        font-size: 50px;
+    }
+    h3{
+        font-family: 'Amiri';
+        font-size: 30px;
     }
 }
